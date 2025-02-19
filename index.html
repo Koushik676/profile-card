@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .card {
+    width: 350px;
+    height: 350px;  
+    background: linear-gradient(to bottom, #6a0dad 40%, #c4c4c4 40%);
+    border-top-left-radius: 40px;   
+    border-bottom-left-radius: 0px; 
+    border-top-right-radius: 40px;  
+    border-bottom-right-radius: 40px; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+        .profile-img {
+            width: 180px;
+            height: 200px;
+            border-radius: 50%;
+            border: 0px solid white;
+            position: absolute;
+            top: 30px;
+            background-color: #00aaff;
+        }
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            border-radius: 55%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="profile-img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Anil_Chauhan_Chief_of_Defence_Staff_%28CDS%29.jpg" alt="Genral Anil_Chauhan_Chief_of_Defence_Staff_">
+            <h5>Name:General Anil Chauhan</h5>
+            <h5>BOD:18|05|1961</h5>
+            <h5>Awards:Vishisht Seva Medal in 2011,Sena Medal in 2014</h5></div>
+    </div>
+    </body>
+</html>
